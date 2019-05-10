@@ -1,0 +1,196 @@
+@font-face{
+    font-family: 'halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+}
+body{
+    margin: 0px;
+}
+
+/* Header */
+header{
+    background: url('../img/bg.jpg');
+    padding: 30px 0px;
+}
+div.container.header nav.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 5em;
+}
+div.container.header nav.menu a{
+    color: #ffff;
+    margin-left: 30px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: 20px;
+}
+div.container.header nav.menu a:hover{
+    border-bottom: 3px solid #ffff;
+    margin-bottom: 20px;https://gitlab.com/jonathancuotto/camiones_app_dev.git
+}
+
+div.container-custom-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+}
+div.container-custom-info div{ 
+    padding: 1px 50px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: #ffff;
+    text-align: center;
+}
+div.container-custom-info div.custom-info h2{ 
+    margin-top: 20px;
+    font-size: 22px;    
+}
+div.container-custom-info div.custom-info h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 0;        
+}
+
+
+/* ACERCA DE */
+section.main section.acerca-de {    
+    text-align: center;
+    margin-bottom: 30px;
+}
+section.main section.acerca-de div.container.acerca-de div.custom-photo{
+    margin-top: -60px;
+    
+}
+section.main section.acerca-de div.container.acerca-de div.custom-photo img{
+    vertical-align: top;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+section.main section.acerca-de div.container.acerca-de div.text-acerca-de{
+    padding: 0px 18%;
+}
+section.main section.acerca-de div.container.acerca-de div.text-acerca-de h3,
+section.main section.trabajos div.container.trabajos h3{    
+    color: goldenrod;
+}
+section.main section.acerca-de div.container.acerca-de div.text-acerca-de p{
+    text-align: justify;
+}
+
+/* TRABAJOS */
+section.main section.trabajos{
+    background:rgba(161, 161, 161, 0.16);
+}
+section.main section.trabajos div.container.trabajos{
+    text-align: center;
+    margin-bottom: 30px;
+}                        
+section.main section.trabajos div.container.trabajos div.trabajos{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+section.main section.trabajos div.container.trabajos div.trabajos div.thumb{
+    width: 33%;
+    margin-bottom: 30px;
+}
+section.main section.trabajos div.container.trabajos div.trabajos div.thumb img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+section.main section.trabajos div.container.trabajos div.trabajos div.thumb div.descripcion h3:first-child{
+    font-size: 20px;
+    color: rgba(64, 127, 209, 0.829);    
+    line-height: 5px;
+}
+section.main section.trabajos div.container.trabajos div.trabajos div.thumb div.descripcion h3{    
+    color: gray;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer section.footer section.container.contacto{
+    padding: 0px 18%;
+    text-align: center;
+}
+footer section.footer section.container.contacto h3{
+    color:rgba(64, 127, 209, 0.829);     
+}
+footer section.footer section.container.contacto form{
+    margin-top: 40px;
+}
+footer section.footer section.container.contacto form input[type="text"],
+footer section.footer section.container.contacto form input[type="email"],
+footer section.footer section.container.contacto form textarea{
+    border: 2px solid #cecece;
+    padding: 15px 20px;
+    font-size: 16px;
+    color:  #a4a4a4;
+}
+footer section.footer section.container.contacto form input[type="text"],
+footer section.footer section.container.contacto form input[type="email"]{
+    margin-bottom: 5px;
+}
+footer section.footer section.container.contacto form textarea{
+    width: 100%;
+    height: 120px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 140px;
+    min-height: 120px;
+}
+footer section.footer section.container.contacto form textarea:focus{
+    border: 2px solid rgba(9, 95, 255, 0.513);
+}
+footer section.footer section.redes-sociales{
+    padding: 15px 0px;
+    background: #060055;
+}
+footer section.footer section.redes-sociales div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer section.footer section.redes-sociales div a{
+    display: block;
+    width: 100px;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+/* ICONS */
+footer section.footer section.redes-sociales div a.gitlab:hover{
+    background-color: #666666;
+    color: white;
+}
+footer section.footer section.redes-sociales div a.instagram:hover{
+    background: #3f729b;
+    color: white;
+}
+footer section.footer section.redes-sociales div a.twitter:hover{
+    background-color: #1da1f2;
+    color: white;
+}
+
+@media screen and (max-width: 587px){
+    section.main section.trabajos div.container.trabajos div.trabajos{
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+span.bold{
+    color: #1da1f2;
+    text-decoration: underline;
+}
+/* brandcolors */

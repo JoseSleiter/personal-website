@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portafolio Web</title>
+            <link rel="stylesheet" href="./src/css/normalize.css">
+            <link rel="stylesheet" href="./src/css/font-awesome.min.css">
+            <link rel="stylesheet" href="./src/css/bootstrap.css">                
+            <link rel="stylesheet" href="./src/css/customer.css">
+        </head>
+        <body>
+            <header>                    
+                <div class="container header">
+                    <nav class="menu">
+                        <a class="acerca-de" href="#acerca-de">Acerca de</a>
+                        <a class="trabajos" href="#trabajos">Trabajos</a>
+                        <a class="contacto" href="#contacto">Contacto</a>
+                    </nav>                    
+                    <div class="container-custom-info">
+                        <div class="custom-info">                       
+                            <h2>Jose Sleiter</h2>
+                            <h3>Desarrollador Web</h3>
+                            <h3>Back-end/Front-end</h3>
+                        </div>
+                    </div>                    
+                </div>
+            </header>
+            <section class="main">                
+                <section class="acerca-de">   
+                    <div class="container acerca-de">
+                        <div id="acerca-de" class="custom-photo">
+                            <img src="../src/img/7.jpg" alt="Jose Sleiter">
+                        </div>
+                        <div class="text-acerca-de">
+                            <h3>Acerca de</h3>
+                            <p>Actualmente trabajo como <span class="bold">analista de sistema</span> en una empresa de desarrollo de <span class="bold">E-commerce</span> en españa, y como desarrollador de <span class="bold">App-hibridas</span> para una empresa Latino-America de forma remota.</p>
+                            <p>En mi tiempo libre me enfoco a hacer ejercicio y aprender nuevas tecnologias de desarrollo, actualmente siento un gran interes por el areá de  <span class="bold">UX / IU</span>.</p>
+                        </div>
+                    </div> 
+                </section>
+                <section id="trabajos" class="trabajos">
+                    <div class="container trabajos">
+                        <h3>Trabajos</h3>                        
+                        <div class="trabajos">                            
+                            <div class="thumb">
+                                <img src="../src/img/1.jpg" alt="">
+                                <div class="descripcion">
+                                    <h3>Uruguay</h3>
+                                    <h3>Ionic, Laravel, Git</h3>
+                                </div>
+                            </div>
+                            <div class="thumb">
+                                <img src="../src/img/2.jpg" alt="">
+                                <div class="descripcion">
+                                    <h3>España</h3>
+                                    <h3>Prestashop, Magento</h3>
+                                </div>
+                            </div>
+                            <div class="thumb">
+                                <img src="../src/img/5.jpg" alt="">
+                                <div class="descripcion">
+                                    <h3>Freelancer</h3>
+                                    <h3>Vuejs, API, Maquetado, Html, Css</h3>
+                                </div>
+                            </div>                                                        
+                        </div>
+                    </div>                    
+                </section>
+            </section>
+            <footer>
+                <section class="footer">
+                    <section id="contacto" class="container contacto">
+                        <h3 class="titulo">Contacto</h3>
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo">        
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="redes-sociales"> 
+                        <div class="container">
+                            <a class="gitlab" href="https://gitlab.com/josesleiter"> <i class="fa fa-gitlab"></i></a>                      
+                            <a class="instagram" href="https://instagram.com/@josesleiter"> <i class="fa fa-instagram"></i></a>
+                            <a class="twitter" href="https://twitter.com/@josesleiter"> <i class="fa fa-twitter"></i></a>
+                        </div>                       
+                    </section>
+                </section>                
+            </footer>            
+        </body>
+        <script src="../src/js/jquery.js"></script>
+        <script src="../src/js/customer.js"></script>
+    </html>
